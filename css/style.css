@@ -719,7 +719,7 @@ footer .footer-content {
     display: flex;
     
     justify-content: space-evenly;
-    text-align:left;
+    text-align:center;
 }
 .footer-content img {
     margin-right: 5.8em;
@@ -732,8 +732,13 @@ footer .footer-content {
 }
 .footer-content p {
  color: white;
- font-family: 'Abril Fatface', cursive !important;
- font-size: .8em;
+ font-family: 'Kdam Thmor Pro', sans-serif !important;
+ font-size: 1.1em;
+}
+@media  screen and (max-width:900px) {
+    .footer-content p{
+        font-size:.8em;
+    }
 }
 footer .social-icon li {
     float: left;
